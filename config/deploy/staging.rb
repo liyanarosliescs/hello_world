@@ -1,3 +1,7 @@
+role :app, %w{zhenhua@10.68.17.193}
+role :web, %w{zhenhua@10.68.17.193}
+role :db,  %w{zhenhua@10.68.17.193}
+
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.

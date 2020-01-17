@@ -82,6 +82,14 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
+staging:
+  <<: *default
+  database: hello_world_staging
+  username: hello_world
+  password: <%= Rails.application.credentials.dig(:staging, :db_password) %>
+  host: <%= Rails.application.credentials.dig(:staging, :db_host) %>
+  port: <%= Rails.application.credentials.dig(:staging, :db_port) %>
+
 production:
   <<: *default
   database: hello_world_production
