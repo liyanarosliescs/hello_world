@@ -53,7 +53,7 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-passenger', '>= 0.1.1'
   gem 'capistrano-rails'
-  gem 'capistrano-rvm'
+  gem 'capistrano-rbenv'
 end
 
 group :test do
