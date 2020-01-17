@@ -1,6 +1,6 @@
-role :app, %w{ec2-user@10.68.17.193}
-role :web, %w{ec2-user@10.68.17.193}
-role :db,  %w{ec2-user@10.68.17.193}
+role :app, %w{zhenhua@10.68.17.193}
+role :web, %w{zhenhua@10.68.17.193}
+role :db,  %w{zhenhua@10.68.17.193}
 
 # server-based syntax
 # ======================
